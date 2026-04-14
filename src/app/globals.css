@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary brand color — update per client */
+  --brand: #ce0000;
+  --brand-hover: #b50000;
+
+  /* Backgrounds */
+  --background: #fafafa;
+  --foreground: #171717;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation utilities */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}

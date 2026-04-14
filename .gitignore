@@ -1,5 +1,10 @@
-# dependencies (bun install)
+# dependencies
 node_modules
+
+# Next.js
+.next
+out
+next-env.d.ts
 
 # output
 out
@@ -32,3 +37,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# zip archives
+*.zip
