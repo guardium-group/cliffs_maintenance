@@ -272,7 +272,7 @@ function SiteFooter() {
               <a href="mailto:dispatch@cliffstowing.com"
                 className="flex items-center gap-2 text-white/70 hover:text-white transition-colors text-sm">
                 <Mail className="h-4 w-4 shrink-0" strokeWidth={1.5} />
-                dispatch@cliffstowing.com
+                dispatch@cliffstowing.ca
               </a>
               <span className="flex items-center gap-2 text-white/50 text-sm">
                 <MapPin className="h-4 w-4 shrink-0" strokeWidth={1.5} />
@@ -293,16 +293,16 @@ function SiteFooter() {
                 height={28}
                 className="h-7 w-auto object-contain brightness-0 invert opacity-50"
               />
-              <div className="flex items-center gap-2">
+              {/* <div className="flex items-center gap-2">
                 {socials.map(({ href, Icon, label }) => (
                   <a key={label} href={href} target="_blank" rel="noreferrer" aria-label={label}
                     className="w-9 h-9 rounded-xl bg-white/8 border border-white/10 flex items-center justify-center text-white/50 hover:bg-white hover:text-[#511010] transition-all duration-200">
                     <Icon className="h-4 w-4" strokeWidth={1.5} />
                   </a>
                 ))}
-              </div>
+              </div> */}
               <p className="text-xs text-white/35">
-                &copy; {new Date().getFullYear()} Cliff&apos;s Towing Inc. All rights reserved.
+                &copy; {new Date().getFullYear()} Cliff&apos;s Towing is Owned & Operated by Guardium Group of Companies.
               </p>
             </div>
           </div>
